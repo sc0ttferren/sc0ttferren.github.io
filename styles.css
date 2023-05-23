@@ -1,14 +1,23 @@
 /* CSS styles for the unblocked games site */
 body {
+  background-color: #1C1C1C;
+  color: #F9F9F9;
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
 header {
-  background-color: #333;
-  color: #fff;
+  background-color: #1C1C1C;
+  color: #F9F9F9;
   padding: 20px;
+  width: 100%;
+  text-align: center;
 }
 
 nav ul {
@@ -23,12 +32,13 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #fff;
+  color: #F9F9F9;
   text-decoration: none;
 }
 
 main {
   padding: 20px;
+  text-align: center;
 }
 
 h2 {
@@ -45,6 +55,13 @@ h2 {
 }
 
 .game-list li a {
-  color: #333;
+  display: inline-block;
+  background-color: #434343;
+  color: #F9F9F9;
+  padding: 10px 20px;
   text-decoration: none;
+}
+
+.game-list li a:hover {
+  background-color: #333333;
 }
